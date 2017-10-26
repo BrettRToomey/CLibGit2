@@ -2,3 +2,8 @@ module CLibGit2 [system] {
   header "/usr/local/include/git2.h"
   export *
 }
+
+module CLibGit2Linux [system] {
+  header "/usr/include/git2.h"
+  export *
+}
